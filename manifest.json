@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Cornell DGAF",
+  "author": "Benjamin Shen",
+  "description": "This extension autofills the Cornell Daily Check.",
+  "version": "1.0",
+  "homepage_url": "https://benjaminshen.com",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "https://dailycheck.cornell.edu/*"
+  ]
+}
