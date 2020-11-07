@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-  console.log("DOMContentLoaded");
-  chrome.tabs.executeScript(null, { code: `console.log("Hello World!");` });
+  chrome.tabs.executeScript(null, {
+    code: `
+    console.log("popup.js hello World!");`,
+  });
 });

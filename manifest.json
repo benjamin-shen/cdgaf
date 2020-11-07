@@ -13,5 +13,12 @@
   "permissions": [
     "storage",
     "https://dailycheck.cornell.edu/*"
+  ],
+  "content_scripts": [
+    {
+     "js": ["content-scripts/daily-checkin.js"],
+     "matches": ["https://dailycheck.cornell.edu/daily-checkin"],
+     "run_at": "document_end"
+    }
   ]
 }
