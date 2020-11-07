@@ -1,2 +1,2 @@
-# cdgaf
-Cornell DGAF
+# Cornell DGAF
+### Cornell Daily Get Auto-Filled
